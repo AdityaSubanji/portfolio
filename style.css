@@ -15,6 +15,40 @@
     }
 
 
+/* Example styles for new project card if needed */
+
+
+.card-item {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-item:hover {
+  transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+  .card-list {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .card-item {
+      margin: 10px auto;
+  }
+}
 
 
 
